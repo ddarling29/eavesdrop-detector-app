@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		388D664823A4AF0300E13D1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388D664723A4AF0300E13D1F /* AppDelegate.swift */; };
+		388D664A23A4AF0300E13D1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388D664923A4AF0300E13D1F /* SceneDelegate.swift */; };
+		388D664C23A4AF0300E13D1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388D664B23A4AF0300E13D1F /* ViewController.swift */; };
+		388D664F23A4AF0300E13D1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388D664D23A4AF0300E13D1F /* Main.storyboard */; };
+		388D665223A4AF0300E13D1F /* Eavesdrop_Detector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 388D665023A4AF0300E13D1F /* Eavesdrop_Detector.xcdatamodeld */; };
+		388D665423A4AF0400E13D1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388D665323A4AF0400E13D1F /* Assets.xcassets */; };
+		388D665723A4AF0400E13D1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388D665523A4AF0400E13D1F /* LaunchScreen.storyboard */; };
+		388D666223A4AF0400E13D1F /* Eavesdrop_DetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388D666123A4AF0400E13D1F /* Eavesdrop_DetectorTests.swift */; };
+		C7613CDD864CDF9C20860222 /* Pods_Eavesdrop_Detector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD8A26B10C93CDAE226567A /* Pods_Eavesdrop_Detector.framework */; };
+		C7CD6561C0DF4082A0A75D2B /* Pods_Eavesdrop_DetectorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF974A88287E5C05AEB3A58B /* Pods_Eavesdrop_DetectorTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		388D665E23A4AF0400E13D1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388D663C23A4AF0300E13D1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 388D664323A4AF0300E13D1F;
+			remoteInfo = "Eavesdrop Detector";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DFFD6F4119A93C1ACBF6A15 /* Pods-Eavesdrop DetectorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eavesdrop DetectorTests.debug.xcconfig"; path = "Target Support Files/Pods-Eavesdrop DetectorTests/Pods-Eavesdrop DetectorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2218E9459F91805739C224F8 /* Pods-Eavesdrop DetectorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eavesdrop DetectorTests.release.xcconfig"; path = "Target Support Files/Pods-Eavesdrop DetectorTests/Pods-Eavesdrop DetectorTests.release.xcconfig"; sourceTree = "<group>"; };
+		27EE83B47E552712F7B12798 /* Pods-Eavesdrop Detector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eavesdrop Detector.release.xcconfig"; path = "Target Support Files/Pods-Eavesdrop Detector/Pods-Eavesdrop Detector.release.xcconfig"; sourceTree = "<group>"; };
+		388D664423A4AF0300E13D1F /* Eavesdrop Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eavesdrop Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		388D664723A4AF0300E13D1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		388D664923A4AF0300E13D1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		388D664B23A4AF0300E13D1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		388D664E23A4AF0300E13D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		388D665123A4AF0300E13D1F /* Eavesdrop_Detector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Eavesdrop_Detector.xcdatamodel; sourceTree = "<group>"; };
+		388D665323A4AF0400E13D1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		388D665623A4AF0400E13D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		388D665823A4AF0400E13D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388D665D23A4AF0400E13D1F /* Eavesdrop DetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eavesdrop DetectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		388D666123A4AF0400E13D1F /* Eavesdrop_DetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eavesdrop_DetectorTests.swift; sourceTree = "<group>"; };
+		388D666323A4AF0400E13D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EEBD249DAAC842D2844A9D2 /* Pods-Eavesdrop Detector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eavesdrop Detector.debug.xcconfig"; path = "Target Support Files/Pods-Eavesdrop Detector/Pods-Eavesdrop Detector.debug.xcconfig"; sourceTree = "<group>"; };
+		CF974A88287E5C05AEB3A58B /* Pods_Eavesdrop_DetectorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eavesdrop_DetectorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD8A26B10C93CDAE226567A /* Pods_Eavesdrop_Detector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eavesdrop_Detector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		388D664123A4AF0300E13D1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7613CDD864CDF9C20860222 /* Pods_Eavesdrop_Detector.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388D665A23A4AF0400E13D1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CD6561C0DF4082A0A75D2B /* Pods_Eavesdrop_DetectorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0725682F025EBD30A3760519 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDD8A26B10C93CDAE226567A /* Pods_Eavesdrop_Detector.framework */,
+				CF974A88287E5C05AEB3A58B /* Pods_Eavesdrop_DetectorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		388D663B23A4AF0300E13D1F = {
+			isa = PBXGroup;
+			children = (
+				388D664623A4AF0300E13D1F /* Eavesdrop Detector */,
+				388D666023A4AF0400E13D1F /* Eavesdrop DetectorTests */,
+				388D664523A4AF0300E13D1F /* Products */,
+				65CB1E822EE82E245B75C222 /* Pods */,
+				0725682F025EBD30A3760519 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		388D664523A4AF0300E13D1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				388D664423A4AF0300E13D1F /* Eavesdrop Detector.app */,
+				388D665D23A4AF0400E13D1F /* Eavesdrop DetectorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		388D664623A4AF0300E13D1F /* Eavesdrop Detector */ = {
+			isa = PBXGroup;
+			children = (
+				388D664723A4AF0300E13D1F /* AppDelegate.swift */,
+				388D664923A4AF0300E13D1F /* SceneDelegate.swift */,
+				388D664B23A4AF0300E13D1F /* ViewController.swift */,
+				388D664D23A4AF0300E13D1F /* Main.storyboard */,
+				388D665323A4AF0400E13D1F /* Assets.xcassets */,
+				388D665523A4AF0400E13D1F /* LaunchScreen.storyboard */,
+				388D665823A4AF0400E13D1F /* Info.plist */,
+				388D665023A4AF0300E13D1F /* Eavesdrop_Detector.xcdatamodeld */,
+			);
+			path = "Eavesdrop Detector";
+			sourceTree = "<group>";
+		};
+		388D666023A4AF0400E13D1F /* Eavesdrop DetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				388D666123A4AF0400E13D1F /* Eavesdrop_DetectorTests.swift */,
+				388D666323A4AF0400E13D1F /* Info.plist */,
+			);
+			path = "Eavesdrop DetectorTests";
+			sourceTree = "<group>";
+		};
+		65CB1E822EE82E245B75C222 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EEBD249DAAC842D2844A9D2 /* Pods-Eavesdrop Detector.debug.xcconfig */,
+				27EE83B47E552712F7B12798 /* Pods-Eavesdrop Detector.release.xcconfig */,
+				1DFFD6F4119A93C1ACBF6A15 /* Pods-Eavesdrop DetectorTests.debug.xcconfig */,
+				2218E9459F91805739C224F8 /* Pods-Eavesdrop DetectorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		388D664323A4AF0300E13D1F /* Eavesdrop Detector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388D666623A4AF0400E13D1F /* Build configuration list for PBXNativeTarget "Eavesdrop Detector" */;
+			buildPhases = (
+				2D1F84FB5D88F04515F1F85B /* [CP] Check Pods Manifest.lock */,
+				388D664023A4AF0300E13D1F /* Sources */,
+				388D664123A4AF0300E13D1F /* Frameworks */,
+				388D664223A4AF0300E13D1F /* Resources */,
+				5159322707F2CB15773357E6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eavesdrop Detector";
+			productName = "Eavesdrop Detector";
+			productReference = 388D664423A4AF0300E13D1F /* Eavesdrop Detector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		388D665C23A4AF0400E13D1F /* Eavesdrop DetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388D666923A4AF0400E13D1F /* Build configuration list for PBXNativeTarget "Eavesdrop DetectorTests" */;
+			buildPhases = (
+				4ED97BE47AEC146D0E93D13E /* [CP] Check Pods Manifest.lock */,
+				388D665923A4AF0400E13D1F /* Sources */,
+				388D665A23A4AF0400E13D1F /* Frameworks */,
+				388D665B23A4AF0400E13D1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				388D665F23A4AF0400E13D1F /* PBXTargetDependency */,
+			);
+			name = "Eavesdrop DetectorTests";
+			productName = "Eavesdrop DetectorTests";
+			productReference = 388D665D23A4AF0400E13D1F /* Eavesdrop DetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		388D663C23A4AF0300E13D1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "David Darling";
+				TargetAttributes = {
+					388D664323A4AF0300E13D1F = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					388D665C23A4AF0400E13D1F = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 388D664323A4AF0300E13D1F;
+					};
+				};
+			};
+			buildConfigurationList = 388D663F23A4AF0300E13D1F /* Build configuration list for PBXProject "Eavesdrop Detector" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 388D663B23A4AF0300E13D1F;
+			productRefGroup = 388D664523A4AF0300E13D1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				388D664323A4AF0300E13D1F /* Eavesdrop Detector */,
+				388D665C23A4AF0400E13D1F /* Eavesdrop DetectorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		388D664223A4AF0300E13D1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388D665723A4AF0400E13D1F /* LaunchScreen.storyboard in Resources */,
+				388D665423A4AF0400E13D1F /* Assets.xcassets in Resources */,
+				388D664F23A4AF0300E13D1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388D665B23A4AF0400E13D1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D1F84FB5D88F04515F1F85B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eavesdrop Detector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ED97BE47AEC146D0E93D13E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eavesdrop DetectorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5159322707F2CB15773357E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eavesdrop Detector/Pods-Eavesdrop Detector-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eavesdrop Detector/Pods-Eavesdrop Detector-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eavesdrop Detector/Pods-Eavesdrop Detector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		388D664023A4AF0300E13D1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388D664C23A4AF0300E13D1F /* ViewController.swift in Sources */,
+				388D665223A4AF0300E13D1F /* Eavesdrop_Detector.xcdatamodeld in Sources */,
+				388D664823A4AF0300E13D1F /* AppDelegate.swift in Sources */,
+				388D664A23A4AF0300E13D1F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388D665923A4AF0400E13D1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388D666223A4AF0400E13D1F /* Eavesdrop_DetectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		388D665F23A4AF0400E13D1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 388D664323A4AF0300E13D1F /* Eavesdrop Detector */;
+			targetProxy = 388D665E23A4AF0400E13D1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		388D664D23A4AF0300E13D1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388D664E23A4AF0300E13D1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		388D665523A4AF0400E13D1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388D665623A4AF0400E13D1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		388D666423A4AF0400E13D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		388D666523A4AF0400E13D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		388D666723A4AF0400E13D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EEBD249DAAC842D2844A9D2 /* Pods-Eavesdrop Detector.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWJN3SZ8XM;
+				INFOPLIST_FILE = "Eavesdrop Detector/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "David.Eavesdrop-Detector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		388D666823A4AF0400E13D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27EE83B47E552712F7B12798 /* Pods-Eavesdrop Detector.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWJN3SZ8XM;
+				INFOPLIST_FILE = "Eavesdrop Detector/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "David.Eavesdrop-Detector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		388D666A23A4AF0400E13D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DFFD6F4119A93C1ACBF6A15 /* Pods-Eavesdrop DetectorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Eavesdrop DetectorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "David.Eavesdrop-DetectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eavesdrop Detector.app/Eavesdrop Detector";
+			};
+			name = Debug;
+		};
+		388D666B23A4AF0400E13D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2218E9459F91805739C224F8 /* Pods-Eavesdrop DetectorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Eavesdrop DetectorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "David.Eavesdrop-DetectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eavesdrop Detector.app/Eavesdrop Detector";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		388D663F23A4AF0300E13D1F /* Build configuration list for PBXProject "Eavesdrop Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388D666423A4AF0400E13D1F /* Debug */,
+				388D666523A4AF0400E13D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388D666623A4AF0400E13D1F /* Build configuration list for PBXNativeTarget "Eavesdrop Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388D666723A4AF0400E13D1F /* Debug */,
+				388D666823A4AF0400E13D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388D666923A4AF0400E13D1F /* Build configuration list for PBXNativeTarget "Eavesdrop DetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388D666A23A4AF0400E13D1F /* Debug */,
+				388D666B23A4AF0400E13D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		388D665023A4AF0300E13D1F /* Eavesdrop_Detector.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				388D665123A4AF0300E13D1F /* Eavesdrop_Detector.xcdatamodel */,
+			);
+			currentVersion = 388D665123A4AF0300E13D1F /* Eavesdrop_Detector.xcdatamodel */;
+			path = Eavesdrop_Detector.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 388D663C23A4AF0300E13D1F /* Project object */;
+}

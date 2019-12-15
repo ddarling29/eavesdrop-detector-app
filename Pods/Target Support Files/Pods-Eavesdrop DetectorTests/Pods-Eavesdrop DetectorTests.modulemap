@@ -1,0 +1,6 @@
+framework module Pods_Eavesdrop_DetectorTests {
+  umbrella header "Pods-Eavesdrop DetectorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
